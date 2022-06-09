@@ -1,0 +1,27 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2 {
+    color: bisque;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+/* #mainHeading {
+    color: brown;
+} */
+
+p {
+color: rgb(73, 88, 88);
+}
+
+b {
+    font-size: xx-large;
+}
+
+b {
+    color: green;
+}

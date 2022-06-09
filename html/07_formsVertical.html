@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Form</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><a href="../html/htmlPractice.html">Return to HTML</a></td>
+            <td><a href="../index.html">Return to HOME</a></td>
+        </tr>
+    </table>
+    <a href="#horizentalForm">Horizental Form</a>
+        <h1 id="verticalForm">MERN Stack course - fee collection form</h1>
+        <p>Fees Payment: <br>
+            JazzCash or Easypaisa mobile account# 03022004480 <br>
+            Inzamam Malik <br> <br>
+            How to pay: <br>
+            send <b>Rs.6000/-</b> in Easypaisa account 03022004480 and take a screenshot, and then fill this form
+            Classes on Zoom App <br><br>            
+            Jo Students already Rs.6000/- pay kr chukay hain unko kch nhe krna wo is message ko ignore karen.</p>
+
+            <form action="">
+                <fieldset class = "verticalForm" style="width:fit-content ;">
+                    <legend>
+                        <b>Personal detail</b>
+                    </legend>
+                    <table border="0" >
+                        <tr >
+                            <th scope="row"><label for="emailInput">Email Address</label></th>
+                            <td><input required maxlength="50" type="email" id="emailInput" size="25"></td>
+                        </tr>                        
+                        <tr><th></th></tr>
+                        <tr>
+                            <th scope="row"><label for="nameInput">Student ka Name</label></th>
+                            <td><input required maxlength="50" type="text" id="nameInput" size="25"></td>
+                        </tr>
+                        <tr><th></th></tr>
+                        <tr>
+                            <th scope="row"><label for="idInput">Your ID</label></th>
+                            <td><input required maxlength="8" type="text" id="idInput" size="25"></td>
+                        </tr>
+                        <tr><th></th></tr>
+                        <tr>
+                            <th scope="row"><label for="idPassword">Your Password</label></th>
+                            <td><input required maxlength="8" type="password" id="idPassword" size="25"></td>
+                        </tr>
+                        <tr><th></th></tr>
+                        <tr>
+                            <th scope="row"><label for="whatsInput">Whatsapp Number:</label></th>
+                            <td><input required placeholder="jo paid group mai add hai wo wala number" maxlength="8" type="password" id="whatsInput" size="25"></td>
+                        </tr>
+                        <tr><th></th></tr>
+                        <tr>
+                            <th scope="row"><label for="cityInput">City</label>
+                            <td><select id="cityInput">
+                                <option value="khi" selected>Karachi</option>
+                                <option value="lhr" >Lahore</option>
+                                <option value="pshr">Peshawar</option>
+                                <option value="qta">Quetta</option>
+                                <option value="isl">Islamabad</option>
+                            </td>
+                            </select> 
+                        </tr>
+                        <!-- <tr><th></th></tr> -->
+                        <tr>
+                            <!-- <th scope="row"><label for="uploadImage">                     </label></th> -->
+                            <!-- <td><input type="file" id="uploadImage" accept="image/*"></td> -->
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset class = "verticalForm" style="width:fit-content;">
+                    <legend>
+                        <b>Course and Payment Detail</b>
+                    </legend>
+                    <table border="0">
+                        <tr>
+                            <th scope="row"><label for="courseName">Course Name</label></th>
+                            <td><select id="courseName" size="4" multiple="multiple">
+                                <option value="mern">MERN DEVELOPER COURSE</option>
+                                <option value="mean">MEAN DEVELOPER COURSE</option>
+                                <option value="digital">DIGITAL MEDIA COURSE</option>
+                                <option value="chatbot">CHAT BOT COURSE</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr><th></th></tr>
+                        <tr>
+                            <th scope="row"><label for="PaymentDate">Payment Date</label></th>
+                            <td><input required type="datetime-local" id="PaymentDate" ></td>
+                        </tr>
+                        <tr><th></th></tr>
+                        <tr>
+                            <th scope="row"><label for="transId">Transaction Id</label></th>
+                            <td><input required type="number" id="transId" size="25" placeholder="EasyPaisa / JazzCash transaction id" ></td>
+                        </tr>
+                        <tr><th></th></tr>
+                        <tr>
+                            <th scope="row"><label for="uploadImage">Payment Screenshot</label></th>
+                            <td><input type="file" id="uploadImage" accept="image/*"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset class = "verticalForm" style="width:fit-content;">
+                    <legend><b>Your Comments</b></legend>
+                    <table border="0">
+                        <tr>
+                            <th scope="row" colspan="2"> <textarea id="comments" cols="80" rows="5"></textarea></td>
+                        </tr>
+                        <tr><th></th></tr>
+                        <tr>
+                            <th scope="row"><label for="getMark">How you mark our Course</label></th>
+                            <td>
+                            <input type="radio" name="getMark" id="getMark" checked="checked" value="Excellent">Excellent
+                            <input type="radio" name="getMark" id="getMark" value="Good">Good
+                            <input type="radio" name="getMark" id="getMark" value="Fair">Fair
+                            <input type="radio" name="getMark" id="getMark" value="Bad">Bad
+                            </td>
+                        </tr>
+                    </table>        
+                </fieldset>
+                <br>
+                <button>Submit</button>
+                
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+        <a href="#verticalForm">Vertical Form</a>
+        <h1 id="horizentalForm">MERN Stack course - fee collection form</h1>
+        <p>Fees Payment: <br>
+            JazzCash or Easypaisa mobile account# 03022004480 <br>
+            Inzamam Malik <br> <br>
+            How to pay: <br>
+            send <b>Rs.6000/-</b> in Easypaisa account 03022004480 and take a screenshot, and then fill this form
+            Classes on Zoom App <br><br>            
+            Jo Students already Rs.6000/- pay kr chukay hain unko kch nhe krna wo is message ko ignore karen.</p>
+    
+        <form action="">
+        <fieldset>
+            <legend>
+                <b>Personal detail</b>
+            </legend>
+            <table>
+                <tr>
+                    <td><label for="emailInput">Email Address</label></td>
+                    <td><input required maxlength="50" type="email" id="emailInput" size="25"></td>
+                    <td><label for="nameInput">Student ka Name</label></td>
+                    <td><input required maxlength="50" type="text" id="nameInput" size="25"></td>
+                    <td><label for="idInput">Your ID</label></td>
+                    <td><input required maxlength="8" type="text" id="idInput" size="25"></td>
+                    <td><label for="idPassword">Your Password</label></td>
+                    <td><input required maxlength="8" type="password" id="idPassword" size="25"></td>
+                    <td><label for="whatsInput">Whatsapp Number:</label></td>
+                    <td><input required placeholder="jo paid group mai add hai wo wala number" maxlength="8" type="password" id="whatsInput" size="25"></td>
+                    <td><label for="cityInput">City</label>
+                    <td><select id="cityInput">
+                        <option value="khi" selected>Karachi</option>
+                        <option value="lhr" >Lahore</option>
+                        <option value="pshr">Peshawar</option>
+                        <option value="qta">Quetta</option>
+                        <option value="isl">Islamabad</option>
+                    </td>
+                    </select> 
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <b>Course and Payment Detail</b>
+            </legend>
+            <table>
+                <tr>
+                    <td><label for="courseName">Course Name</label></td>
+                    <td><select id="courseName" size="4" multiple="multiple">
+                        <option value="mern">MERN DEVELOPER COURSE</option>
+                        <option value="mean">MEAN DEVELOPER COURSE</option>
+                        <option value="digital">DIGITAL MEDIA COURSE</option>
+                        <option value="chatbot">CHAT BOT COURSE</option>
+                        </select>
+                    </td>
+                    <td><label for="PaymentDate">Date and Time of payment</label></td>
+                    <td><input required type="datetime-local" id="PaymentDate" ></td>
+                    <td><label for="transId">EasyPaisa / JazzCash transaction id</label></td>
+                    <td><input required type="number" id="transId" size="25"></td>
+                    <td><label for="uploadImage">Screenshot showing amount and transaction id</label></td>
+                    <td><input type="file" id="uploadImage" accept="image/*"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><b>Your Comments</b></legend>
+            <table>
+                <tr>
+                    <td> <textarea id="comments" cols="80" rows="1"></textarea></td>
+                    <td><label for="getMark">How you mark our Course</label>
+                    <input type="radio" name="getMark" id="getMark" checked="checked" value="Excellent">Excellent
+                    <input type="radio" name="getMark" id="getMark" value="Good">Good
+                    <input type="radio" name="getMark" id="getMark" value="Fair">Fair
+                    <input type="radio" name="getMark" id="getMark" value="Bad">Bad</td>
+                </tr>
+            </table>        
+        </fieldset>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
